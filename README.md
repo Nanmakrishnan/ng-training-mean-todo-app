@@ -1,3 +1,3 @@
 MEAN-TODO-Application
 
-A project built using MEAN stack
+A todo-list app project built using MEAN stack
