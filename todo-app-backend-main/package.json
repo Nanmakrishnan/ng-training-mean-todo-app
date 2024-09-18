@@ -1,0 +1,29 @@
+{
+  "name": "todo-app",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha",
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "```\r todo-app\r ├─ 📁models\r │  ├─ 📄Counter.js\r │  └─ 📄Task.js\r ├─ 📁node_modules\r ├─ 📁routes\r │  └─ 📄tasks.js\r ├─ 📄.gitignore\r ├─ 📄package-lock.json\r ├─ 📄package.json\r └─ 📄server.js\r ```\r ```\r todo-app-backend\r ├─ 📁models\r │  ├─ 📄Counter.js\r │  └─ 📄Task.js\r ├─ 📁node_modules\r ├─ 📁routes\r │  └─ 📄tasks.js\r ├─ 📄.gitignore\r ├─ 📄README.md\r ├─ 📄package-lock.json\r ├─ 📄package.json\r └─ 📄server.js\r ```",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "mongoose": "^8.6.1",
+    "nodemon": "^3.1.4"
+  },
+  "devDependencies": {
+    "chai": "^5.1.1",
+    "express": "^4.19.2",
+    "mocha": "^10.7.3",
+    "supertest": "^7.0.0"
+  },
+  "directories": {
+    "test": "test"
+  }
+}
