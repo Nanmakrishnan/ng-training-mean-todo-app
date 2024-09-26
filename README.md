@@ -1,19 +1,62 @@
-MEAN-TODO-Application
+# TO-DO-Application
 
-A todo-list app project built using MEAN stack
+## Overview
+A simple to-do application to manage tasks efficiently.
 
----------Project setup---------
+## Features
+- Create, view, update and delete tasks.
+- Set due dates and priorities.
 
--> Commands to set client side
- 1.npm install
- 2.npm install -g @angular/cli
- 3.ng serve
+  ## Getting Started
 
- -> Commands to set server-side
-  1.npm init -y
-  2.npm i
-  3.npm install -g nodemon  // if nodemon is not installed
-  4.nodemon server.js
+  ### Prerequisites
+  - Node.js
+  - MongoDB
+
+### Installation
+
+1. Clone the repository
+
+        git clone https://github.com/Nanmakrishnan/ng-training-mean-todo-app.git
+
+2. Navigate into the project directory
+
+         cd ng-training-mean-todo-app
+
+3. Install dependencies
+   ##client-side
+
+         npm install
+         npm install -g @angular/cli
+         ng serve
+
+   ##server-side
+
+         npm init -y
+         npm i
+         npm install -g nodemon
+         nodemon sever.js
+
+
+   ## API Endpoints
+
+      GET /api/tasks
+        - Description: Retrieve all tasks.
+      POST /api/tasks
+        - Description: Create a new task.
+      PUT /api/tasks/
+        - Description: Edit the task by ID.
+      DELETE /api/tasks/
+        - Description: Delete the task by ID.
+
+   ## Technology Used
+
+    - Angular
+    - Node.js
+    - Express.js
+    - MongoDB
+
+      
  
 
  
